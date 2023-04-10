@@ -30,17 +30,18 @@ const About = () => {
         </div>
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros
-            non nisi vulputate eleifend. Vestibulum erat ipsum, lacinia ut nibh
-            ut, pulvinar interdum lorem. Aliquam et nisi eu risus ultrices
-            suscipit nec nec quam. Suspendisse pretium fermentum luctus.
-            Maecenas vitae vestibulum ipsum, ut varius diam. Phasellus mattis
-            nunc vel purus maximus, sit amet congue ligula tincidunt. Nulla
-            tristique luctus lacinia. Nullam ut tortor arcu.
+            Hi there, I'm Neuerliu! I'm a recent graduate of Nanjing University and 
+            I'm currently interested in data science. My technical skill set includes Python, 
+            PyTorch, MySQL, Linux, and Javascript. I am always looking for new ways to 
+            expand my knowledge and stay up-to-date with the latest advancements in the industry.
+            On my personal website, you can expect to find some of my projects and blog posts 
+            related to my interests in data science. Additionally, I enjoy discussing and sharing 
+            knowledge with like-minded individuals, so feel free to reach out to me 
+            if you have any questions or just want to chat!
           </code>
           <br />
           <br />
-          <code>Aenean in mi non leo placerat suscipit a eget odio:</code>
+          <code>My technical skill set :</code>
           <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
             <div className="flex flex-row  mb-3">
               <img
@@ -50,46 +51,46 @@ const About = () => {
               />
               <code>JavaScript (ES6+)</code>
             </div>
-            <div className="flex flex-row mb-3">
+            {/* <div className="flex flex-row mb-3">
               <img
                 src={NextLogo}
                 alt="Next Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Next.js</code>
-            </div>
-            <div className="flex flex-row mb-3">
+            </div> */}
+            {/* <div className="flex flex-row mb-3">
               <img
                 src={ReactLogo}
                 alt="React Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>React</code>
-            </div>
-            <div className="flex flex-row mb-3">
+            </div> */}
+            {/* <div className="flex flex-row mb-3">
               <img
                 src={TypescriptLogo}
                 alt="Typescript Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>TypeScript</code>
-            </div>
-            <div className="flex flex-row  mb-3">
+            </div> */}
+            {/* <div className="flex flex-row  mb-3">
               <img
                 src={TailwindLogo}
                 alt="Tailwind Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Tailwind CSS</code>
-            </div>
-            <div className="flex flex-row mb-3">
+            </div> */}
+            {/* <div className="flex flex-row mb-3">
               <img
                 src={ReduxLogo}
                 alt="Redux Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Redux</code>
-            </div>
+            </div> */}
             <div className="flex flex-row  mb-3">
               <img
                 src={PythonLogo}
@@ -98,22 +99,22 @@ const About = () => {
               />
               <code>Python</code>
             </div>
-            <div className="flex flex-row mb-3">
+            {/* <div className="flex flex-row mb-3">
               <img
                 src={FirebaseLogo}
                 alt="Firebase Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Firebase</code>
-            </div>
-            <div className="flex flex-row mb-3">
+            </div> */}
+            {/* <div className="flex flex-row mb-3">
               <img
                 src={NodeJSLogo}
                 alt="NodeJS Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Nodejs</code>
-            </div>
+            </div> */}
             <div className="flex flex-row mb-3">
               <img
                 src={SqlLogo}
@@ -122,22 +123,22 @@ const About = () => {
               />
               <code>SQL</code>
             </div>
-            <div className="flex flex-row mb-3">
+            {/* <div className="flex flex-row mb-3">
               <img
                 src={MongoDBLogo}
                 alt="MongoDB Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>MongoDB</code>
-            </div>
-            <div className="flex flex-row mb-3">
+            </div> */}
+            {/* <div className="flex flex-row mb-3">
               <img
                 src={DockerLogo}
                 alt="MongoDB Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Docker</code>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

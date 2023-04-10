@@ -91,28 +91,28 @@ const LeftBar = () => {
         ) : null}
         <div className="absolute inset-x-0 bottom-10 ">
           <div className="flex px-6 space-x-7">
-            <a href="/">
+            <a href="https://github.com/Neuerliu">
               <img
                 src={GitLogo}
                 alt="Git Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            {/* <a href="/">
               <img
                 src={KaggleLogo}
                 alt="Kaggle Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
-            </a>
-            <a href="/">
+            </a> */}
+            {/* <a href="/">
               <img
                 src={LinkedinLogo}
                 alt="Linkedin Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
-            </a>
-            <a href="/">
+            </a> */}
+            <a href="mailto:brackneuer@foxmail.com">
               <img
                 src={MailLogo}
                 alt="Mail Logo"
